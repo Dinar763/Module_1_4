@@ -4,7 +4,7 @@ public class MainApp {
     public static void main(String[] args) {
         Foo foo = new Foo();
 
-        Runnable runA = () -> foo.first();
+        Runnable runA = foo::first;
         Runnable runB = () -> {
             try {
                 foo.second();
