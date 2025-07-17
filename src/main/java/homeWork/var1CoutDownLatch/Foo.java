@@ -1,4 +1,4 @@
-package homeWork;
+package homeWork.var1CoutDownLatch;
 
 import java.util.concurrent.CountDownLatch;
 
